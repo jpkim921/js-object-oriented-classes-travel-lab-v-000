@@ -38,7 +38,10 @@ class Route {
 
   estimatedTime(peak = false){
     const distance = this.blocksTravelled()
-    if peak
+    if (peak){
       return 2 * distance;
+    } else {
+      return 3 * distance;
+    }
   }
 }
