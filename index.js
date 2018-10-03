@@ -35,4 +35,8 @@ class Route {
 
     return Math.abs(horiDist) + Math.abs(vertDist);
   }
+
+  estimatedTime(peak = false){
+    
+  }
 }
