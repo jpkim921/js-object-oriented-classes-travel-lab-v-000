@@ -33,6 +33,7 @@ class Route {
     // var n = str.indexOf("welcome");
     let horiDist = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)
     let vertDist = eastWest.indexOf(this.endingLocation.vertical) - eastWest.indexOf(this.endingLocation.vertical)
-
+    console.log(horiDist)
+    console.log(vertDist)
   }
 }
