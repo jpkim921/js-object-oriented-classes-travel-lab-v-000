@@ -37,6 +37,7 @@ class Route {
   }
 
   estimatedTime(peak = false){
+    console.log(peak)
     const distance = this.blocksTravelled()
     if (peak){
       return distance/2;
