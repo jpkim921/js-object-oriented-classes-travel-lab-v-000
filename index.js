@@ -31,8 +31,10 @@ class Route {
   blocksTravelled(){
     let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     // var n = str.indexOf("welcome");
-    let horiDist = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)
-    let vertDist = eastWest.indexOf(this.endingLocation.vertical) - eastWest.indexOf(this.endingLocation.vertical)
+
+    let horiDist = eastWest.indexOf(this.beginningLocation.horizontal)
+    // let horiDist = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)
+    // let vertDist = eastWest.indexOf(this.endingLocation.vertical) - eastWest.indexOf(this.endingLocation.vertical)
     console.log(horiDist)
     console.log(vertDist)
   }
