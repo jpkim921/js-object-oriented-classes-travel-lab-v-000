@@ -34,5 +34,7 @@ class Route {
     let vertDist = this.endingLocation.vertical - this.beginningLocation.vertical
     console.log(horiDist)
     console.log(vertDist)
+
+    return Math.abs(horiDist) + Math.abs(vertDist)
   }
 }
