@@ -42,6 +42,6 @@ class Route {
       return 2 * distance;
     } else {
       return 3 * distance;
-    }
-  }
+    };
+  };
 }
