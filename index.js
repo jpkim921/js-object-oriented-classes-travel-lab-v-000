@@ -32,8 +32,6 @@ class Route {
     let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     let horiDist = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal)
     let vertDist = this.endingLocation.vertical - this.beginningLocation.vertical
-    // console.log(horiDist)
-    // console.log(vertDist)
 
     return Math.abs(horiDist) + Math.abs(vertDist);
   }
